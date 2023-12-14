@@ -24,6 +24,7 @@ public class AdminInterceptor implements HandlerInterceptor {
 			return false;
 		}
 		return true;	//관리자 계정 로그인인 경우
+		//
 	}
 
 }
